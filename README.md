@@ -1,14 +1,61 @@
-# The Node Modules Finder
+<p align="center">
+  <img src="data/icons/hicolor/scalable/apps/com.x1da49.thenodemodules.svg" alt="The Node Modules Finder Logo" width="128" height="128">
+</p>
 
-A beautiful, native GNOME & Libadwaita application to scan, explore, and clean up heavy `node_modules` folders to instantly reclaim your disk space.
+<h1 align="center">The Node Modules Finder</h1>
 
-The project is officially hosted at: **[0x1da49.com/0x6g](http://0x1da49.com/0x6g)**
+<p align="center">
+  <strong>A beautiful, native GNOME & Libadwaita application to scan, explore, and clean up heavy <code>node_modules</code> folders to instantly reclaim your disk space.</strong>
+</p>
+
+<p align="center">
+  Official Project Home: <a href="http://0x1da49.com/0x6g"><strong>0x1da49.com/0x6g</strong></a>
+</p>
+
+---
+
+## 📸 Screenshots & Walkthrough
+
+### 1. Ready to Scan
+A minimal, clean welcome page that integrates seamlessly with your desktop. Scan your home folder in one click or choose any custom directory.
+
+<p align="center">
+  <img src="public/1-start-screen-asking-to-scan.png" alt="Welcome Screen" width="600">
+</p>
+
+### 2. Live Scan Traversal
+Watch the scanning engine work in real-time as a non-blocking background thread traverses all directories without causing any UI stutter.
+
+<p align="center">
+  <img src="public/2-scanning-onprogress-screen.png" alt="Scanning Progress" width="600">
+</p>
+
+### 3. Comprehensive Dashboard & Explorer
+Review partition space analytics, Node modules occupancy gauges, and your projects list. Under **Node Install Products**, you get a complete status report of all Node projects (`package.json`) regardless of whether dependencies are currently present or clean.
+
+<p align="center">
+  <img src="public/3-main-screen-showing-all-modules.png" alt="Main Dashboard Dark Mode" width="600">
+</p>
+
+### 4. Secure Bulk Deletion
+Select multiple `node_modules` folders to clean and review them in a clean, confirmation action block before safe deletion.
+
+<p align="center">
+  <img src="public/4-the-delete-modal-snapshot.png" alt="Delete Confirmation" width="600">
+</p>
+
+### 5. Native Day/Night Modes
+Responsive native Libadwaita rendering that perfectly respects your system's light and dark preferences.
+
+<p align="center">
+  <img src="public/5-main-screen-but-in-light-theme.png" alt="Main Dashboard Light Mode" width="600">
+</p>
 
 ---
 
 ## 🚀 Quick Installation
 
-You can install the standalone, secure Flatpak bundle directly on any Linux distribution in two ways:
+Install the secure, sandboxed Flatpak package directly on any Linux system:
 
 ### Option 1: One-Click Terminal Install (Recommended)
 Copy and paste this single command into your terminal to automatically download and install the latest release:
