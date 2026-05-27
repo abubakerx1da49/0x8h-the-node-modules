@@ -14,7 +14,7 @@ You can install the standalone, secure Flatpak bundle directly on any Linux dist
 Copy and paste this single command into your terminal to automatically download and install the latest release:
 
 ```bash
-flatpak install https://github.com/abubakerx1da49/0x8h-the-node-modules/releases/latest/download/com.x1da49.thenodemodules.flatpak
+curl -L -o com.x1da49.thenodemodules.flatpak https://github.com/abubakerx1da49/0x8h-the-node-modules/releases/latest/download/com.x1da49.thenodemodules.flatpak && flatpak install --user ./com.x1da49.thenodemodules.flatpak
 ```
 
 ### Option 2: Graphical Install

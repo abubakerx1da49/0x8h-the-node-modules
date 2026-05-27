@@ -81,7 +81,7 @@ jobs:
             ---
             ### 📦 Direct Terminal Installation:
             ```bash
-            flatpak install https://github.com/${{ github.repository }}/releases/download/${{ env.VERSION }}/com.x1da49.thenodemodules.flatpak
+            curl -L -o com.x1da49.thenodemodules.flatpak https://github.com/${{ github.repository }}/releases/download/${{ env.VERSION }}/com.x1da49.thenodemodules.flatpak && flatpak install --user ./com.x1da49.thenodemodules.flatpak
             ```
           files: |
             com.x1da49.thenodemodules.flatpak
